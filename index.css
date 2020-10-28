@@ -1,0 +1,48 @@
+*{
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-image: linear-gradient(rgba(237, 238, 186, 0.753), rgba(140, 236, 212, 0.712));
+    background-repeat: space;
+}
+h1{
+    text-align: center;
+    size: 2em;
+}
+
+#status
+{
+    color: blue;
+}
+
+#imageSrc,#canvasOutput
+{
+    text-align: center;
+    min-width: 200px;
+}
+
+#fileInput
+{
+    text-decoration: none;
+    background-color: transparent;
+}
+#download-btn
+{
+    text-decoration: none;
+    padding: 1%;
+    border: 1px solid #f0f0f0;
+    border-radius: 1em;
+    background-color: #efefff;
+    color: #000;
+    margin-top: 2vh;
+}
+
+#download-btn:hover
+{
+    border: 1px solid #0f0f0f;
+    background-color: #001432;
+    color: #FFF;
+}
